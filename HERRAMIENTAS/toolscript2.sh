@@ -27,15 +27,10 @@ done
 echo -e "\033[1;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
 tput cnorm
 }
-IP=$(cat /etc/IP)
 x="ok"
 menu ()
 {
 #TOOL-SCRIPTS
-sshplusfree () {
-    apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Plus; chmod 777 Plus; ./Plus
-}
-
 #OPCIONES DE SISTEMA
 atualizar () {
 echo ""
