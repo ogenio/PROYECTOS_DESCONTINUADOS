@@ -27,18 +27,8 @@ https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADO
 
 ## :octocat: Credits
 
-1. [illuminati Dev Team - Contributor](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ)
+1. [illuminati Dev Team](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ) - Contributor
 
 ```
-* SIN MINERIA! 
-* SIN KEYS! 
-* VERSION GRATUITA 
-* SIN VIRUS TROJANO (BOTNET) 
-* ARCHIVOS LIBERADOS (DECENCRIPTADOS)
+☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
 ```
-
-```
-☆ https://t.me/admmanagerfree ☆
-```
-
-**By: [  ⃘⃤꙰✰ ]**
