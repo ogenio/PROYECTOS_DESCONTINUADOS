@@ -15,7 +15,7 @@
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/HERRAMIENTAS/toolscript2.sh; chmod +x toolscript2.sh; ./toolscript2.sh
 
 ```
-ACCESO DIRECTO AL SCRIPTS EJECUTAR EN CONSOLA EL COMANDO: ( tsm )
+Despues solo necesitara ejecutar la siguiente linea para usar nuevamente: tsm
 ```
 -------------------------------------------------------------------------------
 
@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADO
 
 ## :octocat: Credits
 
-1. [illuminati Dev Team](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ) - Contributor
+1. illuminati Dev Team - Contributor
 
 ```
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
