@@ -6,6 +6,9 @@
 
 **Generador De Key VPS-MX**
 
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/ogenio/PROYECTOS_DESCONTINUADOS-1/master/GENERADOR-VPS-MX/instgerador.sh; chmod 777 instgerador.sh* && ./instgerador.sh*
+
+
 
 ## :heavy_exclamation_mark: Requerimientos
 
