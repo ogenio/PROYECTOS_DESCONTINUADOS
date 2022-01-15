@@ -16,8 +16,8 @@ mine_port4
 echo -e "$BARRA"
 cat << EOF
 
-           VPS-MX KEY GENERADOR
-           INSTALACIONES: $(cat $IVAR)
+           GÊNIO HACKER KEY
+           INSTALAÇÕES : $(cat $IVAR)
            
 EOF
 SCPT_DIR="/etc/SCRIPT"
@@ -35,9 +35,9 @@ while [[ ${var[$value]} != 0 ]]; do
 [[ -e /etc/newadm-instalacao ]] && BASICINST="$(cat /etc/newadm-instalacao)" || BASICINST="menu PGet.py ports.sh ADMbot.sh message.txt usercodes sockspy.sh POpen.py PPriv.py PPub.py PDirect.py speedtest.py speed.sh utils.sh dropbear.sh apacheon.sh openvpn.sh shadowsocks.sh ssl.sh squid.sh"
 clear
 echo -e $BARRA
-echo -e "MENÚ SELECCIÓN DE INSTALACIÓN"
+echo -e "MENU DE INSTALAÇÃO "
 echo -e $BARRA
-echo "[0] - FINALIZAR PROCEDIMIENTO"
+echo "[0] - FINALIZAR PROCEDIMENTO"
 i=1
 for arqx in `ls ${SCPT_DIR}`; do
 [[ $arqx = @(gerar.sh|http-server.py) ]] && continue
@@ -76,8 +76,8 @@ echo -e "[$i] -> ${arqx}"
 arq_list[$i]="${arqx}"
 let i++
 done
-echo -e "[x] -> \033[0;31mGENERADOR DE KEYS\033[0m"
-echo -e "[b] -> \033[0;33mINSTALACIÓN VPS-MX\033[0m"
+echo -e "[x] -> \033[0;31GERADOR DE KEYS\033[0m"
+echo -e "[b] -> \033[0;33mGENIO HACKER\033[0m"
 read -p "Seleccione los archivos a ser repasados: " readvalue
 #CRIA KEY
 [[ ! -e ${DIR}/${KEY} ]] && mkdir ${DIR}/${KEY}
@@ -296,7 +296,7 @@ echo -e "$BARRA"
 read -p "Enter"
 }
 atualizar_geb () {
-wget -O $HOME/instger.sh https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/GENERADOR-VPS-MX/instgerador.sh &>/dev/null
+wget -O $HOME/instger.sh https://raw.githubusercontent.com/ogenio/PROYECTOS_DESCONTINUADOS-1/master/GENERADOR-VPS-MX/instgerador.sh &>/dev/null
 chmod +x $HOME/instger.sh
 cd $HOME
 ./instger.sh
@@ -309,14 +309,14 @@ PID_GEN=$(ps x|grep -v grep|grep "http-server.sh")
 echo -e "$BARRA"
 echo -e "Directorio de los archivos repasados \033[1;31m${SCPT_DIR}\033[0m"
 echo -e "$BARRA"
-echo -e "[1] = GENERAR 1 KEY ALEATORIA"
-echo -e "[2] = ELIMINAR/MIRAR KEYS"
-echo -e "[3] = LIMPIAR REGISTRO DE KEYS USADAS"
-echo -e "[4] = ALTERAR ARCHIVOS DE KEY BASICA"
-echo -e "[5] = ENCENDER/APAGAR GENERADOR $PID_GEN\033[0m"
+echo -e "[1] = GERAR 1 KEY ALEATORIA"
+echo -e "[2] = ELIMINAR KEYS"
+echo -e "[3] = LIMPAR REGISTRO DE KEYS USADAS"
+echo -e "[4] = ALTERAR ARQHIVOS DE KEY BASICA"
+echo -e "[5] = ATIVAR/DESATIVAR GERADOR $PID_GEN\033[0m"
 echo -e "[6] = VER REGISTRO"
-echo -e "[7] = CAMBIAR CREDITOS"
-echo -e "[8] = ACTUALIZAR GENERADOR"
+echo -e "[7] = CREDITOS"
+echo -e "[8] = ATUALIZAR GERADOR"
 echo -e "[0] = SALIR"
 echo -e "$BARRA"
 while [[ ${varread} != @([0-8]) ]]; do
@@ -337,7 +337,7 @@ elif [[ ${varread} = 5 ]]; then
 start_gen
 elif [[ ${varread} = 6 ]]; then
 echo -ne "\033[1;36m"
-cat /etc/gerar-sh-log 2>/dev/null || echo "NINGUN REGISTRO EN ESTE MOMENTO"
+cat /etc/gerar-sh-log 2>/dev/null || echo "NENHUM REGISTRO NO MOMENTO"
 echo -ne "\033[0m" && read -p "Enter"
 elif [[ ${varread} = 7 ]]; then
 message_gen
